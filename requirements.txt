@@ -12,6 +12,7 @@ idna==3.6
 iniconfig==2.0.0
 isort==5.13.2
 mccabe==0.7.0
+mysql-connector-python==8.3.0
 nodeenv==1.8.0
 packaging==24.0
 platformdirs==4.2.0
