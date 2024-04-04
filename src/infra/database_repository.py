@@ -1,5 +1,5 @@
 from typing import Dict
-from src.infra.database_connector import DatabaseConnecor
+from src.infra.database_connector import DatabaseConnector
 from .interfaces.database_repository import DatabaseRepositoryInterface
 
 
@@ -14,7 +14,7 @@ class DatabaseRepository(DatabaseRepositoryInterface):
                 (%s, %s, %s, %s, %s, %s)    
         '''
 
-        cursor = DatabaseConnecor.connection.cursor()
+        cursor = DatabaseConnector.connection.cursor()
         cursor.execute(query, list(data.values()))
 
-        DatabaseConnecor.connection.commit()
+        DatabaseConnector.connection.commit()

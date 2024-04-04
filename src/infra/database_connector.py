@@ -1,6 +1,6 @@
 import mysql.connector as mysql
 
-class DatabaseConnecor:
+class DatabaseConnector:
 
     connection = None
 
