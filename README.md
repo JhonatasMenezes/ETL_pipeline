@@ -1,6 +1,6 @@
 # ETL Pipeline with Python
 
-In this repo I created a complete ETL process only using Python and Clean Arh concepts.
+In this repo I created a complete ETL process only using Python and Clean Arch concepts.
 
 I hope you really aprreciate it and I hope you get the knowledge base of a sample data pipeline.
 
